@@ -14,6 +14,8 @@ class EmailParser
  
  def parse
    e = emails.split(" ")
+   e.map do |email| email 
+ end
    binding.pry
  end
   
