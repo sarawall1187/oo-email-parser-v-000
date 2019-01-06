@@ -17,7 +17,7 @@ class EmailParser
    emails = e.map do |email| 
     email.gsub(",", "") 
    end
-   binding.pry
+
  end
   
   
