@@ -18,6 +18,4 @@ class EmailParser
    end
    emails.uniq
  end
-  
-  
 end
