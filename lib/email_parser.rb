@@ -18,10 +18,4 @@ class EmailParser
    end
    emails.uniq
  end
- 
- def hello(x) 
-  puts x 
- end
- 
- hello("hey")
 end
